@@ -1,0 +1,34 @@
+.servicii {
+    /* background-color: blue; */
+    height: 40%;
+    /* margin-bottom: 10vh; */
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.servicii-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.serviciu {
+    height: 30vh;
+    width: 30vh;
+    background-color: white;
+    margin: 2.5vh;
+    border-radius: 20vh;
+}
+
+.title-servicii {
+    font-size: 4vmin;
+    position: absolute;
+    top: 0;
+    color: rgb(197, 88, 15);
+}

@@ -1,0 +1,26 @@
+.gallery-container {
+    height: 110vh;
+    background-color: rgb(6, 2, 0);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery {
+    max-width: 90vw;
+}
+
+.rec-dot {
+    display: none;
+}
+
+.rec-arrow[disabled] {
+    opacity: 0.5;
+}
+
+.pic {
+    max-height: 40vh;
+}
+

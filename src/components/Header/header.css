@@ -1,0 +1,87 @@
+.header {
+    background-color: rgb(104, 80, 56);
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+
+#logo {
+    /* background: green; */
+    height: inherit;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#logo_img {
+    height: inherit;
+    /* background-color: red; */
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100vw;
+    }
+    #logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.menu {
+    /* background-color: blue; */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+
+.menu button {
+    margin: 0 0 0 50px;
+    font-size: 1.5vmin;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.menu button:hover {
+    color: rgb(216, 212, 212);
+}
+
+#programari {
+    padding: 2vmin;
+    border-color: black;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .menu {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        background-color: pink;
+        top: 20vh; right: 0; bottom: 0; left: 0;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0 0 30vh 0;
+    }
+
+    .menu button {
+        font-size: 4.5vmin;
+        background-color: transparent;
+        border-color: transparent;
+        color: white;
+    }
+
+}
